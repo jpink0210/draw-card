@@ -1,0 +1,43 @@
+body{
+  width: 1000px;
+  height: 1000px;
+}
+.generalCard{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #ff2;
+  line-height: 200px;
+  text-align: center
+}
+.generalCard:hover > .optionRegion{
+  display: block;
+}
+.textRegion{
+  position: absolute;
+  width: 100%;
+}
+.textRegion>div{
+  line-height: 20px;
+}
+.textRegion textarea{
+  height: 100px;
+}
+.textContent{
+  line-height: 20px;
+  padding: 10px 20px;
+}
+.optionRegion{
+  width: 100%;
+  height: 60px;
+  background-color: aquamarine;
+  margin-top: 200px;
+  display: none;
+  padding: 10px;
+
+}
+.optionBtn{
+  float: left;
+  height: 30px;
+  line-height: 0;
+}
